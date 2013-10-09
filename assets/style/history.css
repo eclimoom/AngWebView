@@ -1,0 +1,71 @@
+/**
+ * Use for [history].
+ * Author: hejj
+ * Date: 13-9-5
+ * Time: 上午10:30
+ */
+@charset "UTF-8";
+@media(max-width:767px)
+{
+	body{padding:0px !important;}
+}
+/*历史列表页*/
+html,body{padding:0;margin:0;}
+.historysWrap{margin:0; padding:0;font-size: 13px;}
+.historysWrap .emp{ display:inline-block; padding:0 0.5em;}
+.historysWrap p{ margin:0;line-height: 14px; padding:0;}
+.historys{margin:0; padding:0;}
+.historys li{ list-style:none; border-bottom:1px solid #ccc;}
+.historys li:hover{ background:#eee;}
+.historys li:active{ background:#ddd;}
+em.name{ font-weight:bold; font-style:normal;font-size: 14px; display:inline-block; padding-right:0.5em;}
+.listInfo{width:92%; padding:4px 0;}
+.details{ width:6%; height:51px; line-height:50px; text-align: center;}
+.atv{color: #F00; font-style: normal;}
+
+/*历史贷款个人页*/
+.hisItemTools{width:100%; margin:0;}
+.hisItemTools td{ height:40px; line-height:40px;
+text-align:center;
+color:#333;
+font-weight:bold;
+font-size:15px;
+background:#B60543; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(239,197,202,1)), color-stop(50%,rgba(210,75,90,1)), color-stop(51%,rgba(186,39,55,1)), color-stop(100%,rgba(241,142,153,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 51%,rgba(241,142,153,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+.hisItemTools .backBt{width:20%; cursor:pointer;}
+.hisItemTools td.actBt{ border-left:1px solid #FFF;cursor:pointer;}
+.hisItemTools td.planBt{ border-left:1px solid #FFF;cursor:pointer;}
+a:hover{ text-decoration:none;}
+.hisItemTools td:active
+{text-decoration:none;
+background: #8F0323; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,206,208,1)), color-stop(50%,rgba(210,75,90,1)), color-stop(51%,rgba(183,58,71,1)), color-stop(100%,rgba(239,172,179,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(232,206,208,1) 0%,rgba(210,75,90,1) 50%,rgba(183,58,71,1) 51%,rgba(239,172,179,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+.hisItemTools td.current,.hisItemTools td.current:active{
+    background:#eee;
+	cursor:auto;
+}
+
+.hisHead{ padding: 2px 0;}
+.itemPic{width:58px; max-height:50px;}
+.itemPic img{ width:50px; border-radius:25px;}
+.itemIllus{ min-width: 180px;}
+.itemIllus p{padding:8px 4px 0;}
+.fixWidth tr td:first-child { width:86px; background-color:#F7F7F7; text-align:right; padding-right:18px; color: #555;}
+.hisItem thead td{ font-weight:bold;}
+
+.hisItem .tit{font-weight:bold;display: inline-block;width: 94px;}
+.historyMore td{ border-top:none;padding-top: 0;}
+.hisItem .infoIcon{ margin-top:-1px;margin-right: 2px;}
+.tableExp tr:active{ background:#F7F7F7}
+.tableExp .forNum{ padding-left:14px;}
+
+.tipError{border-left:4px solid #b94a48;}
+.tipSucc{border-left:4px solid #468847;}
+.fontError{color: #b94a48;}
+.fontSucc{color: #468847;}
+p.loading{ text-align:center; padding-top:20px;}
+.hisItemTools td.noBg{ background:#FFF;}

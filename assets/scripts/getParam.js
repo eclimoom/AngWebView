@@ -1,0 +1,1 @@
+var historyParam = {"cid":"HBDM-0001999","host":"http://192.168.4.139:73"}
